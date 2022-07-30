@@ -1,0 +1,63 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#CACAF9;
+}
+.signInForm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 300px;
+    box-shadow: 1px 1px 5px black;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.sign{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sign span{
+    color: #CACAF9;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.signInForm input{
+    border: 0;
+    width: 100%;
+    background-color: #f9f9ca;
+    height: 35px;
+}
+.signInForm input:nth-child(1){
+    text-indent: 20px;
+    margin-bottom: 20px;
+}
+.signInForm input:nth-child(2){
+    text-indent: 20px;
+    margin-bottom: 20px;
+}
+
+.signInForm input:nth-child(3){
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    cursor: pointer;
+    background-color:#cae2f9;
+    border: 0;
+}
